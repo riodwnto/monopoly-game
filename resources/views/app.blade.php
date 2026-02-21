@@ -6,6 +6,7 @@
         <title>Monopoli Game</title>
 
         @vite(['resources/js/app.js', "resources/js/Pages/{$page['component']}.vue"])
+        @routes
         @inertiaHead
     </head>
     <body class="font-sans antialiased">
