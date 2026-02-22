@@ -1,7 +1,7 @@
 {
     "version": 2,
     "functions": {
-        "public/index.php": {
+        "api/index.php": {
             "runtime": "vercel-php@0.7.5"
         }
     },
@@ -12,12 +12,11 @@
         },
         {
             "src": "/(.*)",
-            "dest": "/public/index.php"
+            "dest": "/api/index.php"
         }
     ],
     "env": {
         "APP_ENV": "production",
-        "APP_DEBUG": "true",
-        "APP_KEY": "base64:7K5KIsK/S4x/YI9zR6R5zR9zR6R5zR9zR6R5zR9zR6Q="
+        "APP_DEBUG": "false"
     }
 }
